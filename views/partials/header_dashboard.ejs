@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <header class="p-3 bg-dark text-white">
+
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between  ">
+            <a href="/dashboard"
+                class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-cyan text-decoration-none text-primary fw-bold fs-2 ">
+                Notes
+            </a>
+
+            <form class="nav col-12 col-md-auto flex-fill mb-2 justify-content-center mb-md-0 " role="search"
+                method="POST" action="/dashboard/search">
+                <input type="search" name="searchTerm" class="form-control border-primary " placeholder="Search..."
+                    aria-label="Search">
+            </form>
+
+            <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form> -->
+
+            <div class="text-end col-md-3">
+
+                <a href="/logout" type="button" class="btn btn-primary ">Logout</a>
+            </div>
+        </div>
+
+    </header>
+</div>
