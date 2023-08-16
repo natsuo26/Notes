@@ -11,7 +11,7 @@ const MongoStore=require('connect-mongo');
 
 
 const app=express();
-const port=5000||process.env.PORT;
+const port=process.env.PORT||5000;
 
 app.use(session({
     secret:'keyboard car',
