@@ -1,8 +1,8 @@
 # Table of contents
-- **Installing Dependencies
-- **Setting up the environment variable
-- **Setting up the project
-- **Starting the web app
+- Installing Dependencies
+- Setting up the environment variable
+- Setting up the project
+- Starting the web app
 
 ## Installing Dependencies
 First you need to download & install [NodeJS](https://github.com/nodejs/node#download) and verify the version using `npm -v` in your terminal.
@@ -52,4 +52,4 @@ First, you need to create a ".env" file with following contents:
 2. once all dependencies installed then you need to run: 
 	``$npm start``
 	this will start the web app.
-3. in browser go to [localhost:5000](localhost:5000) and your app should work.
+3. in browser go to ``localhost:5000`` and your app should work.
