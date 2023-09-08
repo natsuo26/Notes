@@ -8,10 +8,11 @@
 First you need to download & install [NodeJS](https://github.com/nodejs/node#download) and verify the version using `npm -v` in your terminal.
 ## Setting up the environment variable
 First, you need to create a ".env" file with following contents:
-	`MONGODB_URI= mongodb+srv://username123:<password>@cluster0.ktizgno.mongodb.net/
-	`GOOGLE_CLIENT_ID= <Client ID>
-	`GOOGLE_CLIENT_SECRET= <Client secret>
-	`GOOGLE_CALLBACK_URL=http://localhost:5000/google/callback
+1. MONGODB_URI= ``mongodb+srv://username123:<password>@cluster0.ktizgno.mongodb.net/``
+2. GOOGLE_CLIENT_ID=``<Client ID>``
+3. GOOGLE_CLIENT_SECRET=``<Client secret>``
+4. GOOGLE_CALLBACK_URL=``http://localhost:5000/google/callback``
+
 ## Setting up the project
 1) **To create MongoDB URI to store your credentials**
 	1. create a MongoDB account and go to the dashboard screen
