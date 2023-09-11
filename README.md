@@ -48,9 +48,9 @@ First, you need to create a ".env" file with following contents:
 
 ## Starting the web app
 1. navigate to your project folder and then run in the terminal:
-	``$npm install ``
+	``$npm install``
 	this will install all the dependencies.
 2. once all dependencies installed then you need to run: 
 	``$npm start``
 	this will start the web app.
-3. in browser go to ``localhost:5000`` and your app should work.
+3. in browser go to "http://localhost:5000" and your app should work.

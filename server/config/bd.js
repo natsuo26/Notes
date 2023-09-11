@@ -1,18 +1,14 @@
-const mongoose=require('mongoose');
+const mongoose = require("mongoose");
 
-mongoose.set('strictQuery',false);
+mongoose.set("strictQuery", false);
 
+const connectDB = async () => {
+  try {
+    const conn = await mongoose.connect(process.env.MONGODB_URI);
+    console.log(`DB connected: ${conn.connection.host}`);
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-const connectDB=async()=>{
-    
-    try {
-       const conn=await mongoose.connect(process.env.MONGODB_URI);
-       console.log(`DB connected: ${conn.connection.host}`);
-    } catch (error) {
-        
-        console.log(error);
-    }
-}
-
-
-module.exports=connectDB;
+module.exports = connectDB;
